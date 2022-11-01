@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ *
+ * Víctor Gonzälez Mateo
+ * Nom: Víctor
+ * Cognoms: González Mateo
+ * INS Manuel Vázquez Montalbán
+ * Data edició: 30/10/2022
+ * Nom de cicle formatiu: ASIX
+ * Nom mòdul: M03 Programació 
+ */
+package cat.institumvm;
+
+
+public class Actividad 2 {
+
+    private static final String MSG_1 = " Hola mon";
+    
+    public static void main(String[] args) {
+        System.out.println(MSG_1);
+    }
+    
+}
