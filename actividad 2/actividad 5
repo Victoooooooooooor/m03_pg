@@ -1,0 +1,36 @@
+
+package cat.institutmvm;
+
+/*
+ * Nom: Víctor
+ * Cognoms: González Mateo
+ * INS Manuel Vázquez Montalbán
+ * Data d'edició: 31/10/2022
+ * Nom del cicle formatiu: ASIX
+ * Nom del mòdul: M03 - Programació básica.
+ */
+ 
+import java.util.Scanner;
+
+
+public class ACtividad5 {
+
+
+    
+    private static final String MSG_1 = " Introdueix un any ";
+    private static final String MSG_2 = " Aquest any és de traspàs ";
+    private static final String MSG_3 = " Aquest any no és de traspàs ";
+    
+    public static void main(String[] args) {
+        int n;
+        System.out.println(MSG_1);
+        Scanner sc = new Scanner(System.in);
+        n= sc.nextInt();
+        if ((n%4==0)&&(n%100 != 0)||(n%400 == 0)){
+            System.out.println(MSG_2);
+        }else{
+            System.out.println(MSG_3);
+        }
+    }
+    
+}
